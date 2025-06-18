@@ -1,0 +1,52 @@
+.imagen-container {
+  width: 100%;
+  max-width: 626px; /* tamaño máximo real */
+  margin: 0 auto; /* centra la imagen */
+  padding: 10px;
+}
+
+.imagen-container img {
+  width: 100%; /* se adapta al contenedor */
+  height: auto; /* mantiene la proporción */
+  aspect-ratio: 626 / 840; /* mantiene proporción original */
+  border-radius: 12px; /* opcional: bordes redondeados */
+  object-fit: contain; /* mantiene la imagen sin recorte */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* opcional: sombra */
+}
+body {
+ 
+  background-color: #f1f0d6;
+  display: flex;
+
+  align-items: center;
+  height: 90vh;
+}
+.imagen-container {
+  width: 100%;
+  max-width: 626px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center; /* centra el botón */
+}
+
+/* Estilo del botón */
+.btn-volver {
+  display: inline-block;
+  margin-top: 495px;
+ justify-content;
+    position: absolute;
+   left: 20px;
+    top: 110px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  background-color: #d81414;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #dddddd;
+}
